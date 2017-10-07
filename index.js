@@ -4,7 +4,7 @@ function maxProfit(arr) {
     maxProfitRecursive(arr);
 
     function maxProfitRecursive(arr) {
-        if (arr.length === 0) return result;
+        if (arr.length === 0) return;
 
         let [head, ...tail] = arr;
 
